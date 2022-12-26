@@ -1,8 +1,43 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+:root {
+  --buttons-background-color: #2196f3;
+  --buttons-text-color: #fff;
+  --links-color: #2196f3;
+  --no-main-color: #757575;
 }
 
 .link:hover {
-  background-color: #2196f3;
-  color: #fff;
+  /* background-color: #2196f3; */
+  color: var(--links-color);
+}
+
+.button:hover {
+  background-color: var(--buttons-background-color);
+  color: var(--buttons-text-color);
+}
+
+.no-main-color {
+  color: var(--no-main-color);
+}
+
+.contacts {
+  text-decoration: none;
+  color: var(--no-main-color);
+}
+
+.navi {
+  text-decoration: none;
+}
+
+.studio {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #000000;
+}
+.studio-color {
+  color: var(--links-color);
 }
