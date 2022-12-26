@@ -16,6 +16,7 @@ body {
 }
 
 .button:hover {
+  cursor: pointer;
   background-color: var(--buttons-background-color);
   color: var(--buttons-text-color);
 }
